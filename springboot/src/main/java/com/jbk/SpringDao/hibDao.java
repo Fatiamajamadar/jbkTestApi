@@ -17,7 +17,7 @@ public class hibDao {
 SessionFactory sessionFactory;
 	@SuppressWarnings({ "unchecked", "deprecation" })
 	public List<Employee> getallEmp(){
-		System.out.println("i am in dao");
+		System.out.println("i am in dao"); //changes from github...
        Session session=sessionFactory.openSession();
        session.beginTransaction();
       Criteria criteria=session.createCriteria(Employee.class);

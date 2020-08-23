@@ -16,6 +16,7 @@ public class hibConfiguration {
 	
 	@Bean
 	public LocalSessionFactoryBean sessionFactory() {
+		//hib configuration file..
 		System.out.println(dataSource);
 		LocalSessionFactoryBean sessionFactory=new LocalSessionFactoryBean();
 		sessionFactory.setAnnotatedClasses(Employee.class);

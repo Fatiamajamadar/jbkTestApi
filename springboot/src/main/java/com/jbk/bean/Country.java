@@ -3,6 +3,7 @@ package com.jbk.bean;
 public class Country {
 	private int cid;
 	private String cname;
+	//if we use lombok then no need to create getters and setter..only use annotation..also constructor annotation.
 	public Country()
 	{
 		

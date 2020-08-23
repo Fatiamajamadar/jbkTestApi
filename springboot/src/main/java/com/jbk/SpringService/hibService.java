@@ -15,6 +15,7 @@ public class hibService {
 @Autowired
 hibDao hibdao;
 	public List<Employee> getdata(){
+		System.out.println("i am in service");
 		 List<Employee> emplist=hibdao.getallEmp();
 		return emplist;
 	}

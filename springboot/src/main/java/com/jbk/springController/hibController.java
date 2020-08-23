@@ -36,6 +36,7 @@ public class hibController {
 	SessionFactory  sessionFactory;
 	@GetMapping("show")
 	public List<Employee> showall(){
+		System.out.println("i am in hib controller");
 		 List<Employee> Emplist=hibservice.getdata();
 		return Emplist;
 	}
